@@ -1,7 +1,7 @@
 <?php
 namespace Craft;
 
-class WordItUpPlugin extends BasePlugin
+class PixelatePlugin extends BasePlugin
 {
     public function getName()
     {
@@ -20,7 +20,7 @@ class WordItUpPlugin extends BasePlugin
 
     public function getDeveloperUrl()
     {
-        return 'http://mavrx.io';
+        return 'http://milesherndon.com';
     }
 
     public function hasCpSection()
@@ -30,8 +30,8 @@ class WordItUpPlugin extends BasePlugin
 
     public function addTwigExtension()
     {
-        Craft::import('plugins.worditup.twigextensions.WordItUpTwigExtension');
+        Craft::import('plugins.pixelate.twigextensions.PixelateTwigExtension');
 
-        return new WordItUpTwigExtension();
+        return new PixelateTwigExtension();
     }
 }
