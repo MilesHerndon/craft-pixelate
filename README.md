@@ -1,5 +1,5 @@
 # craft-pixelate
 Pixelate images with a Twig extension
 
-## To do:
+#### To do:
 * Improve png pixelation
